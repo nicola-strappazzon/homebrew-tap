@@ -2,7 +2,7 @@
 cask "dacfy" do
   desc "dacfy is a lightweight tool that lets you manage ClickHouse database objects as code."
   homepage "https://github.com/nicola-strappazzon/dacfy"
-  version "0.1.0"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "dacfy" do
 
   on_macos do
     on_intel do
-      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v0.1.0/dacfy_Darwin_amd64.tar.gz"
-      sha256 "085f99e9b024f666b065cc9cb9f4b159825c1726f11ea60de23c52eb5bf54ae7"
+      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.0/dacfy_ darwin_amd64.tar.gz"
+      sha256 "6f0d1f50038ef1b1a4ab123c9238179b2cd54dc9f6a58e5281316a8206c6062f"
     end
     on_arm do
-      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v0.1.0/dacfy_Darwin_arm64.tar.gz"
-      sha256 "f60011c0d9197008438a9d0f947ee1714cecd99a3177997b53d3b9e4ac0c92cd"
+      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.0/dacfy_ darwin_arm64.tar.gz"
+      sha256 "40ef76815dc3d13704680843f7465092234e505efe19ac87c569bb65f789bf00"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v0.1.0/dacfy_Linux_amd64.tar.gz"
-      sha256 "f29b1fcc0e0374c35906148417d4d9f78cd64156cffabf4c3b75a2fb416d625a"
+      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.0/dacfy_ linux_amd64.tar.gz"
+      sha256 "33ac640df6a5ec79bc02fc68eadabec7202024eccb205a003d5afc3f0fb68fe7"
     end
     on_arm do
-      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v0.1.0/dacfy_Linux_arm64.tar.gz"
-      sha256 "bafc2e54037db6b1b38a653ed992a133bd349dd6dd0bf0ecff578b6693bcfca2"
+      url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.0/dacfy_ linux_arm64.tar.gz"
+      sha256 "9442a85b72664da01fca021baa2c5337f53104abd5adf22fd30afbe66b38711c"
     end
   end
 

@@ -13,22 +13,22 @@ cask "dacfy" do
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.2/dacfy_darwin_amd64.tar.gz"
-      sha256 "44e91fcc3fc818cabe6e9cdc3fc8cd352df8a49a918805bcf6d89c52fa2ce605"
+      sha256 "e378f28c964436533be76278b6b5a49dcb2060d8648584a6e2885affbffb2828"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.2/dacfy_darwin_arm64.tar.gz"
-      sha256 "209258e96558e12f145eaf8a11ff23ce8804b51779aa134571d462de5a44435c"
+      sha256 "1bbc98f3af1c2cee1acd1ec6c3bf89e73a15c4c3cc8f1e7b09d16f9ec615ed61"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.2/dacfy_linux_amd64.tar.gz"
-      sha256 "1b82dc9816da8193c886e9d65d9c19333359f51d837498217cb2423a932b1d46"
+      sha256 "6edfbad069b19013d502ae12d654aaeddc808209666d708f568f8fa69e40a5e7"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v1.0.2/dacfy_linux_arm64.tar.gz"
-      sha256 "e497031b699cf767613d3611180823266c576e692d85de02f9c6eb1477fe319a"
+      sha256 "ef1318689ee7e778203c0777e9d3ed532f1063c338b804cb007a8d9e16394ae0"
     end
   end
 

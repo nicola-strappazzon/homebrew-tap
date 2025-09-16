@@ -3,7 +3,7 @@ cask "dacfy" do
   name "dacfy"
   desc "dacfy is a lightweight tool that lets you manage ClickHouse database objects as code."
   homepage "https://github.com/nicola-strappazzon/dacfy"
-  version "1.0.4"
+  version "1.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dacfy" do
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v#{version}/dacfy_darwin_amd64.tar.gz"
-      sha256 "d68194c6581b9dc4a172af8b651983cd28e916890cd7cc114e4e0d4f377bc6d3"
+      sha256 "291c8d9e2b391f5bbb270be9b21a4f3d19fbf37d6eba33900747f1c52fd45b0b"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v#{version}/dacfy_darwin_arm64.tar.gz"
-      sha256 "2a94dcaa51f474a60b6e482d1ddc15456e2e743652b761db95b5b48ccc91787f"
+      sha256 "809c722f40109d9cf745c894b460bf00f740c225c9e45f65c5aed6bbf1469a4c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v#{version}/dacfy_linux_amd64.tar.gz"
-      sha256 "1dd87b094fe6338c570c8951d1f64d8428fa6dc1c60beb91fc1572475cf723cb"
+      sha256 "74f57063e08dd83a583292e61d725d24c8d89a54dade197e1c0e1e72f254eaf0"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/dacfy/releases/download/v#{version}/dacfy_linux_arm64.tar.gz"
-      sha256 "a885c71685b39d5098c52c580c5ec9e0c1098068b00c6f059e1a616ebfeaff1a"
+      sha256 "480e3c7490513b59d57661e75ae185dbd48f4bc9319d125a48a1111524bb394a"
     end
   end
 

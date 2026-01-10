@@ -10,15 +10,16 @@ cask "password-manager" do
   end
 
   binary "pm"
+  bash_completion "completions/pm.bash"
 
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_amd64.tar.gz"
-      sha256 "ea551467916e68142211e620c3fea6458b6d9f530dd991223fb82f8509855fd2"
+      sha256 "235083ff4d36ed3ebcb212b5d6deb3a2a3984654e3a09190f746fb6dd06d6579"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_arm64.tar.gz"
-      sha256 "355a2b55fdc44a9babb04c4ac463cb3df950da74cb2f1fa3898064218b90e933"
+      sha256 "5b0c5a8994c52104f324f9352abc19e7685c5cb37a0c327ff4b2e795ac2e8bfe"
     end
   end
 

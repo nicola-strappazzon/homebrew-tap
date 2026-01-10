@@ -9,27 +9,27 @@ cask "password-manager" do
     skip "Auto-generated on release."
   end
 
-  binary "password-manager"
+  binary "pm"
 
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_amd64.tar.gz"
-      sha256 "bb9379400a18fc6300c3e69caba0bfeb9386526bfd9c06dcedec8d2f2ed799e2"
+      sha256 "7a464338b989cbd1528ddc59fa59165319c2c9309026fb6b1c6adba8dbeb7efd"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_arm64.tar.gz"
-      sha256 "b4415b5f61fa0b97d9cb556d05a5313546ab1bd34ac9ce0c2413dc9009cb27b5"
+      sha256 "cbba68b0484aaacd5d8e0204868de0708a9e7e164dd9bdd34d9518ad0cc38533"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_linux_amd64.tar.gz"
-      sha256 "2696695c254fde7e54f4ca24ecc942e08de731fc894854fd7e743106733dfe14"
+      sha256 "eb4576f6ceb92746e21a3782d60f6f010e63058b13aeecd96de610ff58493547"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_linux_arm64.tar.gz"
-      sha256 "ba4b63931b14c98168317825eb45831f56a29b6a7a643624b75818051dc9ce18"
+      sha256 "3e5a8047665947470e20687e5292e98910485983768ff196c5f79df7426d302d"
     end
   end
 

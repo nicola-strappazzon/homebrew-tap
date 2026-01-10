@@ -15,11 +15,11 @@ cask "password-manager" do
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_amd64.tar.gz"
-      sha256 "235083ff4d36ed3ebcb212b5d6deb3a2a3984654e3a09190f746fb6dd06d6579"
+      sha256 "8f9d4f0f1df2792e38c3d194770c6d80a73e90ad6dcd690c6697149ad18b8e50"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_arm64.tar.gz"
-      sha256 "5b0c5a8994c52104f324f9352abc19e7685c5cb37a0c327ff4b2e795ac2e8bfe"
+      sha256 "ea77a6b21628e92559d6631ce161ca6bc058440e62019d42e05d5d6604ceb12c"
     end
   end
 

@@ -3,7 +3,7 @@ cask "password-manager" do
   name "password-manager"
   desc "password-manager is another Unix-style password manager written in Go."
   homepage "https://github.com/nicola-strappazzon/password-manager"
-  version "0.4.0"
+  version "0.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,11 +15,11 @@ cask "password-manager" do
   on_macos do
     on_intel do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_amd64.tar.gz"
-      sha256 "13808f60c713e37170f06215efa6784eece1f37e831e19e20e2d389679067801"
+      sha256 "cd09cf5d38a054e3b8f8a7eb416607a98f112ee3dd2b8b083d1d7099630201df"
     end
     on_arm do
       url "https://github.com/nicola-strappazzon/password-manager/releases/download/v#{version}/password-manager_darwin_arm64.tar.gz"
-      sha256 "f16e4938fe4860090dbef537dd4a8db00b4edaa90fe7160db1f0d030c76964a8"
+      sha256 "1360ee0e3cb7cb72a70c7f8473a9a5e188f51f296eaf239b1d32e7b9afa70e5d"
     end
   end
 
